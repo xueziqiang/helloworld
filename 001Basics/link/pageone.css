@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+page{
+    font-size: 300px;
+    color: darkgray;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 40%;
+}
+#ql{
+    background-color: aquamarine;
+    animation: ql 3s infinite;
+
+}
+#bh{
+    background-color: aliceblue;
+    animation: bh 3s infinite;
+}
+#zq{
+    background-color: brown;
+    animation: zq 3s infinite;
+}
+#xw{
+    background-color: chocolate;
+    animation: xw 3s infinite;
+}
+@keyframes ql{
+    0%{opacity: 0}
+    25%{opacity: 100}
+    50%{opacity: 0}
+    75%{opacity: 0}
+    100%{opacity: 0}
+}
+@keyframes bh{
+    0%{opacity: 0}
+    25%{opacity: 0}
+    50%{opacity: 100}
+    75%{opacity: 0}
+    100%{opacity: 0}
+}
+@keyframes zq{
+    0%{opacity: 0}
+    25%{opacity: 0}
+    50%{opacity: 0}
+    75%{opacity: 100}
+    100%{opacity: 0}
+}
+@keyframes xw{
+    0%{opacity: 0}
+    25%{opacity: 0}
+    50%{opacity: 0}
+    75%{opacity: 0}
+    100%{opacity: 100}
+}
