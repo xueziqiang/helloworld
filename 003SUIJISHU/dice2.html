@@ -3,10 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        body{
+            font-size: 50px;
+        }
+    </style>
     <script>
+        function guess() {
+            var guess = prompt("猜猜是多少？")
+            if (guess == a) {
+                document.write("你猜对了")
+            }
+            else if (guess > a) {
+                document.write("你猜大了")
+            }
+            else {
+                document.write("你猜小了")
+            }
+
+        }
+
         var a = Math.random();
-        a=Math.floor(a*6)+1;
-        alert(a);
+        a = Math.floor(a * 6) + 1;
+        //document.write(a);
+        document.write("<img src=\"images/" + a + ".png\">");
+        guess()
+        guess()
+
     </script>
 </head>
 <body>
